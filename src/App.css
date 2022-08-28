@@ -1,38 +1,85 @@
-.App {
+.Header{
+  background-color: rgb(136, 225, 136); 
+  color: rgb(9, 90, 23);
+  font-size: xxx-large;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.LoginPage{
+  margin-top: 15vh;
+  text-align: center;
+  font-size: xx-large;
+  
+}
+.myInputBox{
+  margin-bottom: 30px;
+  width: 250px;
+  height: 30px;
+  font-size: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myEnterButton {
+
+  width: 200px;
+  height: 30px;
+  font-size: 25px;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.TodoList {
+
+  text-align: left;
+  font-size: xx-large;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myTodoListCheckbox {
+  width: 20px;
+  height: 30px;
+  text-align: center;
+}
+.ExercisesBackground {
+  background-color: rgb(136, 225, 136);
+  text-align: center;
+}
+.Today {
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.myAccountButton {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  margin: 0;
+  position: absolute;
+  top:96%;
+  left: 92%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AccountInformation {
+  text-align: left;
+  font-size: x-large;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.Title {
+  font-size: xx-large;
+  margin-top: 35px;
+  background-color:rgb(136, 225, 136);
 }
